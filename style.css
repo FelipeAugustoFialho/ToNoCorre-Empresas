@@ -84,8 +84,17 @@
      margin-left: 978px;
      text-decoration: none;
 }
-
-.cadastrar{
+.divCadastrar{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 380px;
+    margin-top: 25px;
+    width: 200px;
+    text-decoration: none;
+}
+.cadastrarButton{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +103,9 @@
     margin-top: 25px;
     width: 200px;
     text-decoration: none;
+}
+a{
+    width: 200px;
 }
 
 @media screen and (max-width: 700px){
@@ -119,5 +131,6 @@
     }
     .cadastrar{
         margin-left: 100px;
+        width: 200px;
     }
 }
