@@ -102,7 +102,10 @@
     margin-right: 380px;
     margin-top: 25px;
     width: 200px;
+    height: 53px;
     text-decoration: none;
+       
+    
 }
 a{
     width: 200px;
@@ -129,8 +132,10 @@ a{
     p{
         font-size: 11px;
     }
+    /*
     .cadastrar{
         margin-left: 100px;
         width: 200px;
     }
+        */
 }
