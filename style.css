@@ -62,7 +62,7 @@
 .text{
 
     width: 875px;
-    height: 500px;
+    height: 487px;
     margin: auto;
     margin-top: 40px;
     font-size: 15px;
@@ -90,7 +90,8 @@
     align-items: center;
     margin: auto;
     margin-right: 380px;
-    margin-top: 25px;
+    margin-top: 1px;
+    margin-bottom: 15px;
     width: 200px;
     text-decoration: none;
 }
@@ -107,6 +108,54 @@
        
     
 }
+
+footer {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 30px;
+    height: 50px;
+    background-color: #202020;
+
+  
+
+
+}
+a{
+    margin-top:4px;
+}
+
+
+.pFooter {
+
+    font-size: 15px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left: 136px;
+    margin-right: 53px;
+    font-family: Poppins;
+}
+
+.bi-linkedin {
+    color: rgb(10, 100, 198);
+}
+
+.bi-google {
+    color: darkred;
+}
+
+.bi-github {
+
+    color: #FFFFFF;
+
+}
+
+.bi-browser-edge {
+    color: #004aad;
+}
+
 
 
 @media screen and (max-width: 700px){
