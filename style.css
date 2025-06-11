@@ -9,7 +9,7 @@
     font-family: 'Poppins';
     text-decoration: none;
 }
-
+html,
 body {
     height: 100%;
     margin: 0;
@@ -19,11 +19,10 @@ body {
 
 body {
     flex: 1;
-}
-body {
     background-image: url(./pag4.png);
     background-size: cover;
 }
+
 
 
 nav {
@@ -96,17 +95,7 @@ p {
 
 }
 
-.colaborar {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-left: 978px;
-    text-decoration: none;
-}
+
 
 .divCadastrar {
     display: flex;
@@ -115,7 +104,6 @@ p {
     margin: auto;
     margin-right: 380px;
     margin-top: 1px;
-    margin-bottom: 15px;
     width: 200px;
     text-decoration: none;
 }
@@ -142,8 +130,6 @@ footer {
     gap: 30px;
     height: 50px;
     background-color: #202020;
-
-
 
 
 }
@@ -291,8 +277,7 @@ a {
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-top: -15px;
-        margin-bottom: 35px;
+      
         width: 200px;
         text-decoration: none;
     }
@@ -327,7 +312,7 @@ a {
 
     .pFooter {
         font-size: 12px;
-        margin-left: 33px;
+        margin-left: 50px;
         margin-top: 5px;
         margin-right: 1px;
     }
@@ -339,7 +324,7 @@ a {
         justify-content: center;
         margin-top: -3px;
         margin-bottom: -4px;
-        margin-left: 130px;
+        margin-left: 150px;
         margin-right: 35px;
 
     }
@@ -348,10 +333,5 @@ a {
      margin-left: -25px;
 }
 
-    /*
-    .cadastrar{
-        margin-left: 100px;
-        width: 200px;
-    }
-        */
+  
 }
