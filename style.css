@@ -262,6 +262,14 @@ a {
         transition: 1s;
     }
 
+    body {
+  overflow-x: hidden;
+    overflow: hidden;
+}
+
+
+
+
     .text {
         margin-left: 0;
         width: 95%;
@@ -280,6 +288,10 @@ a {
       
         width: 200px;
         text-decoration: none;
+    }
+    .cadastrarButton{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     h2 {
